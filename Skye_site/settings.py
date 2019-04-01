@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 添加我的APP
-    'gallery.apps.GalleryConfig',
+    # 'gallery.apps.GalleryConfig',
+    'gallery',
+    # 添加我的APP
+    'blog',
 ]
 
 MIDDLEWARE = [
